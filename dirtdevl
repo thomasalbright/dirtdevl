@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# TODO: Add package cache cleaning for other major package managers
+# TODO: Add error handling for when package manager doesn't exist
+apt-get clean
+
+rm -rf /tmp/*
